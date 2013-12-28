@@ -41,7 +41,7 @@ public class Doughnut extends JPanel {
                     h / 2);
             at.rotate(Math.toRadians(deg));
             if (deg % 10 == 0) {
-                g2.setColor(Color.orange);
+                g2.setColor(Color.red);
             } else {
                 g2.setColor(Color.green);
             }
